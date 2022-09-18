@@ -3,7 +3,6 @@
     height: 50px;
     width: 50px;
     background-color: grey;
-    
     display: inline-block;
     text-align: center;
     margin: auto;
@@ -17,7 +16,7 @@
 
 .row{
     display: grid;
-    
+    font-size: xx-large;
     grid-template-columns: repeat(5,60px);
 }
 
