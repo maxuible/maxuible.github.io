@@ -10,7 +10,7 @@
     line-height: 50px;
     outline-style: solid;
     outline-width: 2px;
-    /* outline-color: blueviolet; */
+
     
 }
 
@@ -23,7 +23,7 @@
     float: left;
     
     height: 100vh;
-    width: fit-content;
+    width: 200px;
 
     border-style: solid;
 }
