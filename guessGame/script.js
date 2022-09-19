@@ -129,14 +129,14 @@ function guess(ginput) {
     ginput = ginput.toUpperCase()
 
     if (ginput === puzzle) {
-        console.log("CONGRATULATIONSSSSSS")
+        //console.log("CONGRATULATIONSSSSSS")
         
-
+        return 1;
     }
 
     if (guessNumber > 5) {
 
-        console.log("SORRY TOO MANY GUESSES YOU LSOE XCDS")
+        //console.log("SORRY TOO MANY GUESSES YOU LSOE XCDS")
         return -1;
     }
 

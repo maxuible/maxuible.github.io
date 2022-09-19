@@ -1,9 +1,13 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: blanchedalmond;
+    background-color:cornsilk
+    
+    
 }
-#nav{
+.nav{
     float: left;
+    height: 100vh;
     width: 200px;
-    height: 100%;
+    
+
 }
