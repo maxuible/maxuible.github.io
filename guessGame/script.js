@@ -88,7 +88,7 @@ function update() {
     let currentRow = '' + guessNumber
 
     if (guessNumber > 5) {
-        console.log("SORRY TOO MANY GUESSES YOU LSOE XCDS")
+        //console.log("SORRY TOO MANY GUESSES YOU LSOE ")
         
         return -1;
     }

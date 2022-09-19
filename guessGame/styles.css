@@ -11,7 +11,7 @@
     outline-style: solid;
     outline-width: 2px;
     /* outline-color: blueviolet; */
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .row{
@@ -19,4 +19,20 @@
     font-size: xx-large;
     grid-template-columns: repeat(5,60px);
 }
+.nav{
+    float: left;
+    
+    height: 100vh;
+    width: fit-content;
 
+    border-style: solid;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:cornsilk;
+}
+
+.main{
+    margin-left: 220px;
+}
