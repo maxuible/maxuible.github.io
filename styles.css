@@ -1,20 +1,3 @@
-body{
+html{
     font-family: 'Courier New', Courier, monospace;
-    background-color:#dadada;
-    color: #272727;
-    
-    
-}
-.nav{
-    float: left;
-    
-    height: 100vh;
-    width: 200px;
-
-    border-style: solid;
-}
-
-.main{
-    margin-left: 220px;
-    
 }
