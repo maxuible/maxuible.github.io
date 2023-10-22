@@ -1,3 +1,41 @@
+.nav{
+    text-align: center;
+    color: black;
+}
+
+body{
+    margin-left: auto;
+    content: center;
+}
+
+
+@media all and (min-width: 50rem) {
+    .main {
+     width: 50%;
+    }
+}
+
+.main{
+    margin: auto;
+    color: black(20, 20, 20);
+}
+
 html{
-    font-family: 'Courier New', Courier, monospace;   
+    background-color: rgb(255, 255, 227);
+}
+
+.grid-contact {
+    
+    display: grid;
+    grid-template-columns: minmax(auto, max-content) minmax(auto, max-content);
+    justify-content: center;
+    column-gap: .5rem;
+    row-gap: .5rem;;
+    padding: .5rem;
+}
+
+.grid-item-contact{
+    padding: 1rem;
+    outline: .05rem;
+    outline-style: solid;
 }

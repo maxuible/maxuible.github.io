@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Making This Website</title>
+</head>
+
+<body>
+    <div class="nav">
+        <h1>maxuible.dev</h1>
+        <a href="../index.html">Home</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../blog.html">Blog</a>
+    </div>
+
+<div class="main">
+
+    <h1>Making This Website</h1>
+
+    <h2>Steps</h2>
+    <ol style="font-size: large;">
+        <li>
+            <a href="#Deciding the VPS">Deciding the VPS</a>
+        </li>
+        <li>
+            <a href="#Setting Up the VPS">Setting up the VPS </a>
+        </li>
+    </ol>
+
+    <section id="Deciding the VPS">
+        <h3>Deciding the VPS</h3>
+        <h4>Requirements</h4>
+        <p>
+            I like the idea of creating from "scratch" and simple HTML.
+            Also I wanted cost to be low, as this is mostly a learning exercise. So I chose Oracle Cloud Free Tier.
+        </p>
+        <h4>Caveats</h4>
+        <p>
+            I don't expect this site's traffic to require a lot of computing/bandwidth.
+            In the future I might change hosting services, but with the experiences gained from setting up this website up changing will be easier.
+        </p>
+    </section>
+
+    <section id="Setting Up the VPS">
+        <h3>Setting Up the VPS</h3>
+
+        <h4>
+            The "Stack" used:
+        </h4>
+        <ul>
+            <li>
+                VPS Service : Oracle Cloud
+            </li>
+            <li>
+                Host OS : Ubuntu
+            </li>
+            <li>
+                Web Server : nginx
+            </li>
+            <li>
+                DNS Service : Google Domains
+            </li>
+            <li>
+                SSL Certification : Certbot/LetsEncrypt 
+            </li>
+
+        </ul>
+        <p>
+            This is the simplest way I could find to set up a static website without using an all in one service like WordPress.
+            I am also using git to pull changes from a GitHub repository.
+        </p>
+
+        <h4>Challenges</h4>
+        <p>
+            The biggest issue I had while setting up the website was remembering to open up the HTTPS port(443) on the VCN(Virtual Cloud Network) in Oracle Cloud.
+            I had the HTTP port(80) open and was stumped on why it wasn't working for a few hours. After sleeping on it and realizing the problem, It was simple fix.
+        </p>
+
+
+    </section>
+</div>
+
+</body>
+
+</html>
