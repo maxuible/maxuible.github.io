@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3x3</title>
+</head>
+<body>
+    <label for="linesizepx">
+        Line Size (in pixel) :
+    <input id="linesizepx" name="linesizepx" type="text">
+    </label>
+<br>
+    <label for="linecolor">
+        Line Color (must be valid hex or CSS color) :
+        <input id="linecolor" type="text">
+    </label>
+<br>    
+    <input id="fileInput" type="file" onchange="Draw()"/> <button onclick="Draw()">Draw</button>
+    <br/>
+    <img id="img" src="" alt="Image preview" />
+    <br>
+    <canvas hidden="true" id="window"></canvas>
+    <script src="3x3JS.js"></script>
+</body>
+</html>
